@@ -9,8 +9,8 @@ nav .menu {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
   padding: 13px 70px;
   margin: 0;
   list-style: none;
@@ -81,10 +81,11 @@ body {
   margin-top: 19px;
   width: 172px;
   height: 46px;
+  background: -o-linear-gradient(bottom, #1EACC7 0%, #4CE2FF 100%);
   background: -webkit-gradient(linear, left bottom, left top, from(#1EACC7), to(#4CE2FF));
   background: linear-gradient(0deg, #1EACC7 0%, #4CE2FF 100%);
   -webkit-box-shadow: inset 0px -3px 0px rgba(0, 0, 0, 0.12);
-          box-shadow: inset 0px -3px 0px rgba(0, 0, 0, 0.12);
+  box-shadow: inset 0px -3px 0px rgba(0, 0, 0, 0.12);
   border-radius: 6px;
   color: #FFFFFF;
   text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.21);
@@ -102,8 +103,8 @@ body {
   font-weight: 700;
   font-size: 60px;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   text-align: center;
   color: #FFFFFF;
   margin-top: 52px;
@@ -113,8 +114,8 @@ body {
   font-weight: 700;
   font-size: 36px;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   text-align: center;
   color: #FFFFFF;
   margin-top: 10px;
@@ -126,8 +127,8 @@ body {
   font-size: 18px;
   line-height: 24px;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   text-align: center;
   color: #FFFFFF;
 }
@@ -137,18 +138,20 @@ body {
   margin: 118px auto 0 auto;
   width: 259px;
   height: 63px;
+  background: -o-linear-gradient(bottom, #1EACC7 0%, #4CE2FF 100%);
   background: -webkit-gradient(linear, left bottom, left top, from(#1EACC7), to(#4CE2FF));
   background: linear-gradient(0deg, #1EACC7 0%, #4CE2FF 100%);
   -webkit-box-shadow: inset 0px -4px 0px rgba(0, 0, 0, 0.12);
-          box-shadow: inset 0px -4px 0px rgba(0, 0, 0, 0.12);
+  box-shadow: inset 0px -4px 0px rgba(0, 0, 0, 0.12);
   border-radius: 4px;
 }
 
 .reasons_title {
-  margin-top: 18px;
   font-size: 11px;
   text-align: center;
-  color: black;
+  text-transform: uppercase;
+  color: white;
+  margin: 0;
 }
 
 .reasons_title2 {
@@ -158,4 +161,61 @@ body {
   line-height: 48px;
   text-align: center;
 }
+
+header {
+  position: fixed;
+  width: 100%;
+}
+
+.benefits_block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-column-gap: 10px;
+  -moz-column-gap: 10px;
+  column-gap: 10px;
+  margin-bottom: 20px;
+}
+
+h4 {
+  color: #1EACC7;
+  font-weight: 400;
+  font-size: 17px;
+}
+
+.benefits_p {
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 21px;
+}
+
+.benefits-title-position {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.title-background {
+  width: 115px;
+  height: 27px;
+  background: #000000;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  margin-top: 18px;
+  margin-bottom: 33px;
+}
+
 /*# sourceMappingURL=style.css.map */
