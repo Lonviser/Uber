@@ -1,0 +1,42 @@
+@media(max-width:1200px){
+    .menu{
+        &_item{
+            padding-right: 20px;
+        }
+        &_link{
+            font-size: 13px;
+        }
+        
+    }
+    .promo .promо_header {
+        font-size: 50px;
+    }
+    .reasons{
+        &_block{
+            align-items:flex-start;
+        }
+    }
+    .reasons_descr {
+    height: 171px;
+    }
+    .mobile_item{
+        width: 300px;
+    }
+}
+@media(max-width:991px){
+    .footer .footer-container {
+        flex-direction: column;
+    }
+    .footer .footer-container .footer-menu {
+        margin-left: 0;
+    }
+    .menu{
+        &_item{
+            padding-right: 8px;
+        }
+        &_link{
+            font-size: 10px;
+        }
+        
+    }
+}

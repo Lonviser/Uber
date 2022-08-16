@@ -35,6 +35,9 @@ body {
   border-right: 1px dashed #000000;
   padding-right: 28px;
 }
+.menu .menu_item:last-child {
+  border-right: none;
+}
 
 .subheader {
   position: absolute;
@@ -259,6 +262,10 @@ h4 {
   margin-top: 19px;
   text-align: center;
   color: #222222;
+}
+
+.reasons_descr {
+  height: 150px;
 }
 
 .mobile {
@@ -604,3 +611,42 @@ h4 {
 }
 
 /*# sourceMappingURL=style.css.map */
+@media (max-width: 1200px) {
+  .menu_item {
+    padding-right: 20px;
+  }
+  .menu_link {
+    font-size: 13px;
+  }
+  .promo .promо_header {
+    font-size: 50px;
+  }
+  .reasons_block {
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+  }
+  .reasons_descr {
+    height: 171px;
+  }
+  .mobile_item {
+    width: 300px;
+  }
+}
+@media (max-width: 991px) {
+  .footer .footer-container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .footer .footer-container .footer-menu {
+    margin-left: 0;
+  }
+  .menu_item {
+    padding-right: 8px;
+  }
+  .menu_link {
+    font-size: 10px;
+  }
+}

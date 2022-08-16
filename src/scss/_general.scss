@@ -35,6 +35,9 @@ nav {
   .menu .menu_item {
     border-right: 1px dashed #000000;
     padding-right: 28px;
+    &:last-child{
+      border-right:none;
+    }
   }
   
   .subheader {
@@ -258,7 +261,9 @@ nav {
     text-align: center;
     color: #222222;
   }
-  
+  .reasons_descr {
+    height: 150px;
+}
   .mobile{
     min-height: 864px;
     padding:48px 0 79px 0;
