@@ -24,6 +24,10 @@ body {
   font-family: Roboto;
 }
 
+.xs-visible {
+  display: none !important;
+}
+
 .menu_link {
   color: #fff;
   font-family: Roboto;
@@ -618,6 +622,9 @@ h4 {
   .menu_link {
     font-size: 13px;
   }
+  .menu input[type=checkbox] {
+    left: 10px;
+  }
   .promo .promо_header {
     font-size: 50px;
   }
@@ -634,6 +641,12 @@ h4 {
   }
 }
 @media (max-width: 991px) {
+  .icons {
+    padding-top: 20px;
+  }
+  .main-auto {
+    width: 100%;
+  }
   .footer .footer-container {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -643,10 +656,162 @@ h4 {
   .footer .footer-container .footer-menu {
     margin-left: 0;
   }
+  .subheader .subheader_phone {
+    font-size: 18px;
+  }
+  .subheader .subheader_btn {
+    margin-top: 21px;
+    height: 40px;
+    width: 100%;
+  }
+  .menu .menu_item {
+    padding-right: 8px;
+  }
+  .menu {
+    -webkit-transition: 0.5s all;
+    -o-transition: 0.5s all;
+    transition: 0.5s all;
+  }
   .menu_item {
     padding-right: 8px;
   }
   .menu_link {
     font-size: 10px;
+  }
+  .subheader_logo img {
+    width: 100%;
+  }
+  .subheader_official {
+    font-size: 11px;
+  }
+  .benefits_block {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .benefits_block h4 {
+    margin-top: 20px;
+  }
+}
+@media (max-width: 767px) {
+  .hamburger {
+    display: block;
+    position: absolute;
+    right: 10px;
+    top: 25px;
+    -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+            transform: translateY(-50%);
+    width: 26px;
+    height: 12px;
+  }
+  .hamburger span {
+    display: block;
+    height: 2px;
+    width: 100%;
+    background-color: #fff;
+    margin-bottom: 2px;
+    -webkit-transition: 0.5s all;
+    -o-transition: 0.5s all;
+    transition: 0.5s all;
+  }
+  .hamburger_active span {
+    margin-bottom: -2px;
+  }
+  .hamburger_active span:nth-child(1) {
+    -webkit-transform: translateY(3px) rotate(-45deg);
+        -ms-transform: translateY(3px) rotate(-45deg);
+            transform: translateY(3px) rotate(-45deg);
+  }
+  .hamburger_active span:nth-child(2) {
+    display: none;
+  }
+  .hamburger_active span:nth-child(3) {
+    -webkit-transform: translateY(3px) rotate(45deg);
+        -ms-transform: translateY(3px) rotate(45deg);
+            transform: translateY(3px) rotate(45deg);
+  }
+  .menu {
+    position: fixed;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    top: 0;
+    left: -100%;
+    width: 50%;
+    height: 100vh;
+    padding: 20px 15px;
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+  .menu_item {
+    padding-right: 0;
+    border: none;
+    margin-top: 10px;
+  }
+  .menu_link {
+    font-size: 20px;
+  }
+  .menu_active {
+    left: 0;
+    z-index: 100;
+  }
+  .xs-hidden {
+    display: none;
+  }
+  .xs-visible {
+    display: block !important;
+  }
+}
+@media (max-width: 576px) {
+  .subheader .subheader_phone {
+    font-size: 12px;
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  .subheader .subheader_btn {
+    width: 200px;
+    height: 40px;
+    margin: 0 auto;
+    display: block;
+  }
+  .promo .promо_header {
+    line-height: 45px;
+  }
+  .promo .promo_btn {
+    margin: 40px auto 0 auto;
+  }
+}
+@media (max-width: 575px) {
+  .subheader_official {
+    display: none;
+  }
+  .subheader .subheader_logo {
+    margin-top: 16px;
+  }
+  .subheader .subheader_btn {
+    width: 110px;
+    height: 22px;
+    font-weight: 400;
+    font-size: 10px;
+    margin-top: 10px;
+  }
+  .subheader .subheader_phone {
+    margin-top: 11px;
+  }
+  .subheader {
+    height: 60px;
   }
 }

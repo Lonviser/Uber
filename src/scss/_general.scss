@@ -16,7 +16,7 @@ nav {
     margin: 0;
     list-style: none;
   }
-  
+
   a {
     text-decoration: none;
   }
@@ -24,7 +24,9 @@ nav {
   body {
     font-family: Roboto;
   }
-  
+  .xs-visible{
+    display: none !important;
+}
   .menu_link {
     color: #fff;
     font-family: Roboto;
@@ -264,6 +266,7 @@ nav {
   .reasons_descr {
     height: 150px;
 }
+
   .mobile{
     min-height: 864px;
     padding:48px 0 79px 0;
@@ -552,7 +555,6 @@ nav {
         color: #1FBAD6;
       }
     }
-    
-    
   }
+
   /*# sourceMappingURL=style.css.map */
