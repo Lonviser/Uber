@@ -186,4 +186,142 @@
     .subheader{
         height: 60px;
     }
+    .promo{
+        height: auto;
+    }
+    .promo .promo-descr{
+        display: none;
+    }
+    .promo .promо_header{
+        font-weight: 900;
+        font-size: 32px;
+        line-height: 35px;
+    }
+    .promo .promo_subheader{
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 23px;
+        margin-top: 33px;
+        padding: 0 10px;
+    }
+    .promo .promo_btn{
+        width: 210px;
+        height: 50px;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 50px;
+        margin-top: 73px;
+    }
+    .menu{
+        width: 85%;
+    }
+    .benefits_block{
+        margin-bottom: 31px;
+    }
+    .mobile{
+        padding: 0px 0 43px 0;
+            .title{
+                font-weight: 700;
+                font-size: 16px;
+                line-height: 16px
+        }
+        .subtitle{
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 21px;
+            margin-bottom: 27px;
+        }
+    }
+    .reasons_title2{
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 16px;
+    }
+    .choise{
+        .title{
+
+        }
+    }
+    .mobile_item_subtitle{
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 31px;
+    }
+    .choise{
+        min-height: 400px;
+        .title{
+            display: none;
+        }
+        .subtitle{
+            display: none;
+        }
+    }
+    nav{
+        height: 32px;
+    }
+    .hamburger{
+        top: 15px;
+    }
+    .choise div .post-title {
+        font-weight: 300;
+        font-size: 17px;
+        line-height: 24px;
+        color: #FFFFFF;
+    }
+    .require{
+        padding: 22px 0 30px 0;
+        .title{
+            font-weight: 700;
+            font-size: 16px;
+            line-height: 16px
+        }
+    }
+    .require_title{
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        text-transform: uppercase;
+    }
+    .require_list {
+        li{
+            font-weight: 300;
+            font-size: 14px;
+            line-height: 16px;
+        }
+    }
+    .requier_descr{
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 16px;
+        color: #1CA8C3;
+    }
+    .all-world{
+        min-height: 320px;
+        .title{
+            font-weight: 700;
+            font-size: 16px;
+            line-height: 16px;
+        }
+    }
+    .all-world .container .see_all_cities {
+        margin-top: 133px;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 15px;
+        text-transform: uppercase;
+        color: #1FBAD6;
+    }
+    .footer .footer-container .footer-menu .menu-item {
+        font-weight: 300;
+        font-size: 11px;
+        line-height: 11px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        justify-items: center;
+        grid-gap: 12px;
+    }
+    .soc-links{
+        margin-bottom: 20px;
+    }
+
 }
