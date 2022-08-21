@@ -26,8 +26,18 @@
     }
 }
 @media(max-width:991px){
+    .promo .promo_btn{
+        margin: 30px auto 0 auto;
+    }
     .icons {
         padding-top: 20px;
+    }
+    nav .menu{
+        padding: 13px 0px;
+        justify-content: flex-start;
+    }
+    .menu_link{
+        display: block;
     }
     .main-auto{
         width: 100%;
@@ -133,6 +143,14 @@
         z-index: 100;
     }
 }
+ul.menu.menu_active{
+    text-align: center;
+}
+.menu-item{
+    width: 100%;
+}
+  
+
 .xs-hidden{
     display: none;
 }
@@ -323,5 +341,7 @@
     .soc-links{
         margin-bottom: 20px;
     }
-
+    .menu_link{
+        font-size: 15px;
+    }
 }

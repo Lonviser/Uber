@@ -641,8 +641,20 @@ h4 {
   }
 }
 @media (max-width: 991px) {
+  .promo .promo_btn {
+    margin: 30px auto 0 auto;
+  }
   .icons {
     padding-top: 20px;
+  }
+  nav .menu {
+    padding: 13px 0px;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+  }
+  .menu_link {
+    display: block;
   }
   .main-auto {
     width: 100%;
@@ -765,6 +777,12 @@ h4 {
   .menu_active {
     left: 0;
     z-index: 100;
+  }
+  ul.menu.menu_active {
+    text-align: center;
+  }
+  .menu-item {
+    width: 100%;
   }
   .xs-hidden {
     display: none;
@@ -943,5 +961,8 @@ h4 {
   }
   .soc-links {
     margin-bottom: 20px;
+  }
+  .menu_link {
+    font-size: 15px;
   }
 }
